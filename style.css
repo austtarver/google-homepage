@@ -1,0 +1,109 @@
+
+#header{
+    width:100%;
+    display:flex;
+}
+#footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+#nav-bar{
+    width:100%;
+    display:flex;
+    font-family:helvetica;
+    font-size:13px;
+}
+.nav-left{
+    width:100%;
+    list-style-type:none;
+    display:flex;
+    justify-content:flex-start;
+    padding:0px;
+    margin: auto;
+
+}
+.nav-right{
+    width:100%;
+    list-style-type:none;
+    display:flex;
+    justify-content:flex-end;
+    margin:auto;
+}
+#main-content{
+    width:100%;
+    margin-top:50px;
+}
+
+#logo{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom:20px;
+}
+
+#search-section{
+    width:500px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+   margin:auto;
+}
+#button-section{
+    display:flex;
+   margin:20px;
+   justify-content: center;
+}
+.search-bar{
+    width:500px ;
+    height:30px;
+    margin-top:5px;
+    border-radius:20px;
+    border-width:1px;
+}
+#submit-button{
+    padding:10px 20px 10px 20px;
+    border:none;
+    border-radius:10px;
+}
+#lucky-button{
+    border: none;
+    padding:10px;
+    border-radius:10px;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+#submit-button:hover{
+    border:solid;
+    border-color:gray;
+    border-width:1px;
+}
+
+
+#lucky-button:hover{
+    border:solid;
+    border-color:gray;
+    border-width:1px;
+}
+.search-icon{
+    position: absolute;
+    padding: 11px 11px;
+    filter: contrast(0);
+    margin-top:0px;
+    margin-left:0px;
+}
+
+
+.account-sprite{
+    margin: auto;
+    margin-left:10px;
+    
+
+}
+.apps-sprite{
+    margin: auto;
+    margin-left:10px;
+}
